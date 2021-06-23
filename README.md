@@ -12,7 +12,7 @@ This repo is created for learning purposes
 ### Build and run
 
 ```console
-    mkdir build && cd build <br>
-    cmake .. -DCMAKE_PREFIX_PATH=~/Qt/5.15.2/wasm_32 -DCMAKE_TOOLCHAIN_FILE=$EMSDK/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake <br>
+    mkdir build && cd build
+    cmake .. -DCMAKE_PREFIX_PATH=~/Qt/5.15.2/wasm_32 -DCMAKE_TOOLCHAIN_FILE=$EMSDK/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake
     make
 ```
